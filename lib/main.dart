@@ -35,8 +35,6 @@ class _CalculatorPageState extends State<CalculatorPage> {
       if (buttonText == 'C') {
         eqn = '0';
         answer = '0';
-      } else if (buttonText == '.') {
-        eqn = eqn + buttonText;
       } else if (buttonText == 'DEL') {
         eqn = eqn.substring(0, eqn.length - 1);
         answer = '0';
